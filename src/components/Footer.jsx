@@ -33,7 +33,7 @@ const Footer = () => {
 						{/* <!-- Logo --> */}
 						<a
 							className='block'
-							href='index.html'
+							href='/'
 							aria-label='Cruip'
 						>
 							<svg

@@ -77,7 +77,7 @@ const Navbar = () => {
 							<li className='ml-3'>
 								<a
 									className='btn-sm inline-flex items-center text-slate-100 bg-slate-800 hover:bg-slate-900 group shadow-sm'
-									href='apply.html'
+									href='/'
 								>
 									Get your card
 									<span className='tracking-normal text-sky-400 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-2'>

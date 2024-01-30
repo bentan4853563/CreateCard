@@ -13,7 +13,35 @@
   }
 }
 
+#sidebar.pop {
+  animation-name: sidebar-popup;
+  animation-duration: 0.3s;
+}
 
+@keyframes sidebar-popup {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+#sidebar.push {
+  animation-name: sidebar-push;
+  animation-duration: 0.3s;
+}
+
+@keyframes sidebar-push {
+  from {
+    transform: translateX(0);
+  }
+  
+  to {
+    transform: translateX(-100%);
+  }
+}
 /* @font-face {
   font-family: 'Aspekta';
 
